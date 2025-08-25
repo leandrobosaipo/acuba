@@ -1,0 +1,34 @@
+# Sistema
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# Composer
+/vendor
+/node_modules
+
+# Cache e IDE
+/.cache
+/.idea
+/.vscode
+
+# WordPress (Bedrock)
+web/wp/
+
+# Plugins instalados via Composer
+web/app/plugins/*
+
+# Temas instalados via Composer
+web/app/themes/*
+
+# Uploads do usuário
+web/app/uploads/*
+
+# Manter estrutura de pastas
+!web/app/plugins/.gitkeep
+!web/app/themes/.gitkeep
+!web/app/uploads/.gitkeep
+
+# Logs
+*.log
